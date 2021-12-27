@@ -1,12 +1,13 @@
 import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
-#clcoding.com
+
 def drawSqr():
     for i in range(4):
         t.forward(30)
         t.left(90)
     t.forward(30)
+    
 if __name__== "__main__" :
     s.setup(600,600)
     t.speed(100)

@@ -1,0 +1,4 @@
+import calendar
+month = 2
+year = 2022
+print(calendar.month(year,month))
